@@ -1,0 +1,9 @@
+:root {
+    --color-primary: #6880ff;
+    --color-primary-hover: #7c91ff;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-purple: #6880ff;
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Poppins", sans-serif;
+}

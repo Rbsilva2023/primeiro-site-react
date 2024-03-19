@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2? family= Handjet:wght@100;400 & family= Inter & family= Poppins:wght@100;400 & family= Roboto:wght@ 400;500 & display=swap');
+@import url(./reset.css);
+@import url(./global.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+
+
+.header {
+    max-width: 1280px;
+    width: 100%;
+    height: 10vh;
+    background: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items:center;
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-white);
+    list-style: none;
+}
+
+.button {
+    width: 70px;
+    height: 2rem;
+    align-items: end;
+    background: var(--color-purple);
+    color: var(--color-white);
+    border-radius: 15px;
+}
+
+
+
+.BannerSection__container {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    background: var(--color-black);
+}
+
+.BannerSection__Content {
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+
+}
+
+.BannerSection__Name {
+    font-size: 16px;
+    color: var(--color-purple);
+}
+
+.BannerSection__Title {
+    color: var(--color-white);
+    font-size: 1.8rem;
+}
+.BannerSection__Button{
+    background:  var(--color-purple);
+    color: var(--color-white);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+.aboutMeSection {
+    background: var(--color-black);
+    color: var(--color-white);
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.aboutMeSectionContent {
+    display: flex;
+    height: 150px;
+    width: 896px;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 5rem;
+    
+    
+}
+
+.aboutMe__title{
+    margin-top: -3rem;
+} 
+
+.aboutMe__text {
+    margin-top: 0.5rem;
+ 
+}
+ 
+   
+
+
+
+
+
